@@ -1,0 +1,14 @@
+E:\sparta\1. Projects\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.exe
+E:\sparta\1. Projects\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.deps.json
+E:\sparta\1. Projects\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.runtimeconfig.json
+E:\sparta\1. Projects\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.dll
+E:\sparta\1. Projects\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.pdb
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.GeneratedMSBuildEditorConfig.editorconfig
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.AssemblyInfoInputs.cache
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.AssemblyInfo.cs
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.csproj.CoreCompileInputs.cache
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.dll
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\refint\TextRPG.dll
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.pdb
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.genruntimeconfig.cache
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\ref\TextRPG.dll
