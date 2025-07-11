@@ -360,8 +360,6 @@ namespace TextRPG
 
             _inventory = new List<Item>()
             {
-                //new Item("무쇠값옷", 5, 0, "무쇠로 만들어져 튼튼한 갑옷입니다.", true),
-                //new Item("스파르타의 창", 0, 7, "스파르타의 전사들이 사용했다는 전설의 창입니다.", true),
                 new Item("무쇠갑옷", 5, 0, "무쇠로 만들어져 튼튼한 갑옷입니다.", 1700),
                 new Item("스파르타의 창", 0, 7, "스파르타의 전사들이 사용했다는 전설의 창입니다.", 2000),
                 new Item("낡은 검", 0, 2, "쉽게 볼 수 있는 낡은 검 입니다.", 600),
@@ -385,13 +383,6 @@ namespace TextRPG
             Console.Write(">> ");
             input = Console.ReadLine();
             isNumber = int.TryParse(input, out actNumber);
-            //do
-            //{
-            //    Console.WriteLine("원하시는 행동을 입력해주세요.");
-            //    Console.Write(">> ");
-            //    input = Console.ReadLine();
-            //    isNumber = int.TryParse(input, out actNumber);
-            //} while (!isNumber || !(0 <= actNumber && actNumber <= 9)); // actNumber가 숫자가 아니거나 0~9사이 숫자가 아니면 되묻기.
         }
 
         public void PrintStat()
@@ -662,13 +653,9 @@ namespace TextRPG
             else
             {
                 if(actNumber != 0)
-                {
                     Console.WriteLine("잘못된 입력입니다.");
-                }
                 else
-                {
                     OpenStore();
-                }
             }
         }
 
@@ -679,14 +666,10 @@ namespace TextRPG
                 int discountPrice = (int)(item.Price * (1 - 0.85f));
                 // 공격력 아이템이면
                 if (item.Attack > 0 && item.Defense == 0)
-                {
                     Console.WriteLine($"- {item.Name.PadRight(10)}|  공격력 +{item.Attack}  |  {item.Description.PadRight(10)}|  {discountPrice} G");
-                }
                 // 방어력 아이템이면 
                 else if(item.Attack == 0 && item.Defense > 0)
-                {
                     Console.WriteLine($"- {item.Name.PadRight(10)}|  방어력 +{item.Defense}  |  {item.Description.PadRight(10)}|  {discountPrice} G");
-                }
             }
 
             Console.WriteLine("\n0. 나가기");
