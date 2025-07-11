@@ -12,3 +12,4 @@ E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\refint\TextRPG.dll
 E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.pdb
 E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.genruntimeconfig.cache
 E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\ref\TextRPG.dll
+E:\sparta\1. Projects\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.sourcelink.json
