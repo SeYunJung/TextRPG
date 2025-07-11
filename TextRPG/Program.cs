@@ -56,6 +56,7 @@ namespace TextRPG
         }
     }
 
+    // 싱글톤으로 구현 => 전사가 상점 객체를 만드는 건 이상해서 전체 공유 개념으로 Store를 싱글톤으로 만듦.
     public class Store
     {
         private static Store _instance;
